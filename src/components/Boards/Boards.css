@@ -1,0 +1,136 @@
+
+/* Color Card */
+.colorCard{
+    height: 30%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    overflow-y: hidden;
+    position: relative;
+    z-index: 1;
+}
+.colorCard .img{
+    width: 30%;
+    position: absolute;
+    right: 8%;
+    margin-top: -5%;
+}
+
+/* Inner Card*/
+.innerCard{
+    height: 80%;
+    background-color: hsl(235, 46%, 25%);
+    border-radius: 20px;
+    margin-top: -11.5%;
+    z-index: 999;
+    position: relative;
+    padding: 1.5rem;
+}
+
+.innerCard:hover{
+    background-color: hsl(235, 45%, 61%);
+}
+.innerCard:hover .complement p{
+    color: white;
+}
+
+.innerCard .title{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 7%;
+    font-size: 15px;
+}
+.innerCard .title .titleImg{
+    margin-top: 4.5%;
+    width: 15%;
+    height: 100%;
+}
+.innerCard .title h3{
+    font-weight: 400;
+}
+
+.innerCard .hour h1{
+    color: white;
+    font-weight: 300;
+    margin-left: -2%;
+    margin-bottom: 2%;
+    font-size: 45px;
+}
+.innerCard .complement p{
+    color: hsl(235, 45%, 61%);
+    font-size: 14px;
+}
+
+
+
+
+
+
+/* Board */
+.Board{
+    width: 75%;
+    height: 65%;
+    margin: 8.5% auto;
+    display: flex;
+}
+.mainBoard{
+    width: 30%;
+    height: 100%;
+}
+.cardBoard{
+    width: 100%;
+    height: 85%;
+    margin: 0 2%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* infoCard */
+.mainCard{
+    margin: 0 10%;
+    width: 105%;
+    height: 100%;
+    display: block;
+    position: relative;
+}
+.infoCard{
+    background-color: hsl(246, 80%,  60%);
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    z-index: 9999;
+    border-radius: 20px;
+}
+
+.photoContainer{
+    width: 100%;
+    height: 50%;
+}
+.infoCard .photoContainer .photo{
+    width: 35%;
+    margin: 17% 10%;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+
+.infoCard .nameContainer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: -5%;
+}
+.infoCard .nameContainer div{
+    margin-left: -20%;
+}
+.infoCard .nameContainer div p{
+    margin-bottom: 3%;
+    color: lightgray;
+    font-weight: 300;
+}
+.infoCard .nameContainer div h1{
+    font-size: 37px;
+    font-weight: 400;
+    color: white;
+}

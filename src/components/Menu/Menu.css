@@ -1,0 +1,34 @@
+.menuCard{
+    height: 35%;
+    background-color: hsl(235, 46%, 25%);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: 15px;
+}
+.menuCard ul{
+    margin-top: 5%;
+}
+
+.menuCard ul li{
+    list-style-type: none;
+    margin-top: 12%;
+    margin-left: 52%;
+    font-size: 18px;
+    cursor: pointer;
+}
+.link{
+    color: hsl(235, 45%, 61%);
+}
+
+.menuCard .link:hover{
+    color: white;
+    transform: scale(1.03);
+}
+
+.active{
+    color: white;
+}
