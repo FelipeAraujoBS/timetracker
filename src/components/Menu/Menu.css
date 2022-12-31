@@ -32,3 +32,16 @@
 .active{
     color: white;
 }
+
+@media (max-width: 600px){
+    .menuCard ul{
+        height: 40%;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .menuCard ul li{
+        margin: 0%;
+    }
+}

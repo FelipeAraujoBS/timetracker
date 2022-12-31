@@ -13,3 +13,9 @@ html{
   height: 100vh;
   overflow: hidden;
 }
+
+@media (max-width: 600px){
+  .App{
+    overflow: auto;
+  }
+}

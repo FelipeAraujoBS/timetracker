@@ -22,7 +22,7 @@ function Boards() {
         {
             title: "Work",
             hours: "8hrs",
-            complement: "Last Day - 8hrs",
+            complement: "Yesterday - 8hrs",
             color: "hsl(15, 100%, 70%)",
             img: workImg,
             id: 1
@@ -30,7 +30,7 @@ function Boards() {
         {
             title: "Play",
             hours: "2hrs",
-            complement: "Last Day - 8hrs",
+            complement: "Yesterday - 8hrs",
             color: "hsl(195, 74%, 62%)",
             img: playImg,
             id: 2
@@ -38,7 +38,7 @@ function Boards() {
         {
             title: "Study",
             hours: "4hrs",
-            complement: "Last Day - 7hrs",
+            complement: "Yesterday - 7hrs",
             color: "hsl(348, 100%, 68%)",
             img: studyImg,
             id: 3
@@ -46,7 +46,7 @@ function Boards() {
         {
             title: "Exercise",
             hours: "2hrs",
-            complement: "Last Day - 2hrs",
+            complement: "Yesterday - 2hrs",
             color: "hsl(145, 58%, 55%)",
             img: exerciseImg,
             id: 4
@@ -54,7 +54,7 @@ function Boards() {
         {
             title: "Social",
             hours: "4hrs",
-            complement: "Last Day - 3hrs",
+            complement: "Yesterday - 3hrs",
             color: "hsl(264, 64%, 52%)",
             img: socialImg,
             id: 5
@@ -62,7 +62,7 @@ function Boards() {
         {
             title: "Self Care",
             hours: "1hrs",
-            complement: "Last Day - 2hrs",
+            complement: "Yesterday - 2hrs",
             color: "hsl(43, 84%, 65%)",
             img: selfcareImg,
             id: 6
@@ -124,7 +124,7 @@ function Boards() {
         {
             title: "Work",
             hours: "64hrs",
-            complement: "Last Week - 128hrs",
+            complement: "Last Month - 128hrs",
             color: "hsl(15, 100%, 70%)",
             img: workImg,
             id: 1
@@ -132,7 +132,7 @@ function Boards() {
         {
             title: "Play",
             hours: "24hrs",
-            complement: "Last Week - 36hrs",
+            complement: "Last Month - 36hrs",
             color: "hsl(195, 74%, 62%)",
             img: playImg,
             id: 2
@@ -140,7 +140,7 @@ function Boards() {
         {
             title: "Study",
             hours: "40hrs",
-            complement: "Last Week - 36hrs",
+            complement: "Last Month - 36hrs",
             color: "hsl(348, 100%, 68%)",
             img: studyImg,
             id: 3
@@ -148,7 +148,7 @@ function Boards() {
         {
             title: "Exercise",
             hours: "30hrs",
-            complement: "Last Week - 30hrs",
+            complement: "Last Month - 30hrs",
             color: "hsl(145, 58%, 55%)",
             img: exerciseImg,
             id: 4
@@ -156,7 +156,7 @@ function Boards() {
         {
             title: "Social",
             hours: "60hrs",
-            complement: "Last Week - 40hrs",
+            complement: "Last Month - 40hrs",
             color: "hsl(264, 64%, 52%)",
             img: socialImg,
             id: 5
@@ -164,7 +164,7 @@ function Boards() {
         {
             title: "Self Care",
             hours: "20hrs",
-            complement: "Last Week - 16hrs",
+            complement: "Last Month - 16hrs",
             color: "hsl(43, 84%, 65%)",
             img: selfcareImg,
             id: 6
@@ -237,19 +237,20 @@ function Boards() {
     <div className='Board'>
        <div className='mainBoard'>
         <Card className="mainCard">
-        <Card className ="infoCard">
-                <div className="photoContainer">
-                    <img className='photo' src={jeremy} alt="img" />
-                </div>
-                <div className='nameContainer'>
-                   <div>
-                    <p>Report for</p>
-                    <h1>Jeremy <br/> Robson</h1>
-                   </div>
-                </div>
-        </Card>  
-        <Card className="menuCard">
-        </Card>      
+            <Card className ="infoCard">
+                    <div className="photoContainer">
+                        <img className='photo' src={jeremy} alt="img" />
+                    </div>
+                    <div className='nameContainer'>
+                    <div>
+                        <p>Report for</p>
+                    <div className='name'>
+                        <h1>Jeremy</h1>
+                        <h1>Robson</h1>
+                    </div>
+                    </div>
+                    </div>
+            </Card>       
            <Menu setActive={pageState} setPageState={setPageState}/>
         </Card>
        </div>
