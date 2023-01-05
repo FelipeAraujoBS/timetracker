@@ -33,7 +33,7 @@
     color: white;
 }
 
-@media (max-width: 600px){
+@media (max-width: 1180px){
     .menuCard ul{
         height: 40%;
         width: 100%;
@@ -43,5 +43,13 @@
     }
     .menuCard ul li{
         margin: 0%;
+    }
+    .link{
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+    }
+    .active{
+        padding-top: .5rem;
+        padding-bottom: .5rem;
     }
 }

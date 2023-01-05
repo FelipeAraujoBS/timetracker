@@ -14,7 +14,7 @@ html{
   overflow: hidden;
 }
 
-@media (max-width: 600px){
+@media (max-width: 1180px){
   .App{
     overflow: auto;
   }
